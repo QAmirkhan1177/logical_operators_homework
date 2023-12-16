@@ -8,4 +8,6 @@ def main(x):
     Returns:
         bool: answer
     """
-    return 
+
+    return  ((x>9 and x<99)and x%11==0)
+print(main(33))
