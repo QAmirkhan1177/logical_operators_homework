@@ -6,5 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a%2==1
-print(main(123))
+    return a>100 and a<999 and a%111==0
+print(main(444))
