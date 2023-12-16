@@ -6,5 +6,5 @@ def main(a):
     Returns:
         bool: answer
     """
-    return a%2==1
-print(main(13))
+    return a>11 and a<99 and a%11==0
+print(main(44))
